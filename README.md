@@ -1,17 +1,13 @@
-# coding:gbk
+
 """
 作者：夏俊浩
 日期：石头剪刀布蜥蜴史波克
 """
 
 import random
-# 0 - 石头
-# 1 - 史波克
-# 2 - 纸
-# 3 - 蜥蜴
-# 4 - 剪刀
 
-# 以下为完成游戏所需要用到的自定义函数
+
+
 
 def name_to_number(name):
         if name == "石头":
@@ -33,9 +29,7 @@ def name_to_number(name):
 """
 将游戏对象对应到不同的整数
 """
-# 使用if/elif/else语句将各游戏对象对应到不同的整数
-# 不要忘记返回结果
-# 编写执行代码,代码完成后将pass删除
+
 def number_to_name(number):
     if number==0:
        number="石头"
@@ -56,9 +50,7 @@ def number_to_name(number):
     """
     将整数 (0, 1, 2, 3, or 4)对应到游戏的不同对象
     """
-
-# 使用if/elif/else语句将不同的整数对应到游戏的不同对象
-# 不要忘记返回结果
+果
 #编写执行代码,代码完成后将pass删除
 
 def rpsls(player_choice):
@@ -90,12 +82,6 @@ else:
 #根据以上提示编写执行代码，代码完成后删除掉pass
 
 
-# 对程序进行测试
-# print("欢迎使用RPSLS游戏")
-# print("----------------")
-# print("请输入您的选择:")
-
-# rpsls(player_choice)
 
 
 
